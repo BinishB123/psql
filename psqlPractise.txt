@@ -1,0 +1,120 @@
+ id | first_name | last_name |             email              | cgpa | sem |         degree
+----+------------+-----------+--------------------------------+------+-----+------------------------
+ 13 | Mia        | Thomas    | mia.thomas@example.com         |  3.1 |   3 | Economics
+ 31 | Jackson    | Jackson   | jackson.jackson@example.com    |    6 |   4 | Nursing
+  3 | Michael    | Johnson   | michael.johnson@example.com    |    6 |   4 | Electrical
+ 16 | Mason      | Jackson   | mason.jackson@example.com      |    6 |   4 | Electrical
+ 26 | Ethan      | Wilson    | ethan.wilson@example.com       |    6 |   4 | Electrical
+ 27 | Alexander  | Anderson  | alexander.anderson@example.com |    6 |   5 | Electrical
+ 39 | Benjamin   | Walker    | benjamin.walker@example.com    |    6 |   4 | Electrical
+ 48 | Amelia     | Hill      | amelia.hill@example.com        |    6 |   5 | Electrical
+ 49 | Hazel      | Green     | hazel.green@example.com        |    6 |   4 | Electrical
+  5 | David      | Martinez  | david.martinez@example.com     |  3.1 |   3 | Electrical
+ 40 | Eliana     | Robinson  | eliana.robinson@example.com    |  3.4 |   3 | Electrical
+  6 | Emma       | Garcia    | emma.garcia@example.com        |    6 |   7 | Pharmaceutical Science
+  7 | James      | Brown     | james.brown@example.com        |    6 |   5 | Pharmaceutical Science
+  8 | Olivia     | Hernandez | olivia.hernandez@example.com   |    6 |   6 | Pharmaceutical Science
+  9 | William    | Lopez     | william.lopez@example.com      |    6 |   4 | Pharmaceutical Science
+ 11 | Sophia     | Wilson    | sophia.wilson@example.com      |    6 |   5 | Economics
+ 12 | Isabella   | Anderson  | isabella.anderson@example.com  |    6 |   6 | Economics
+ 14 | Benjamin   | Taylor    | benjamin.taylor@example.com    |    6 |   7 | Economics
+ 15 | Lucas      | Moore     | lucas.moore@example.com        |    6 |   5 | Economics
+  1 | arjun      | v         | arju@gmail.com                 |    6 |   5 | Electrical
+  2 | Jane       | Smith     | jane.smith@example.com         |    6 |   6 | Electrical
+ 18 | Evelyn     | Lee       | evelyn.lee@example.com         |    6 |   4 | Electrical
+ 19 | Logan      | Perez     | logan.perez@example.com        |    6 |   5 | Electrical
+ 20 | Charlotte  | White     | charlotte.white@example.com    |    6 |   6 | Electrical
+ 10 | Ava        | Gonzalez  | ava.gonzalez@example.com       |  3.6 |   8 | Pharmaceutical Science
+  4 | Emily      | Davis     | emily.davis@example.com        |  3.6 |   8 | Electrical
+ 17 | Harper     | Martin    | harper.martin@example.com      |  3.6 |   8 | Electrical
+ 24 | Aiden      | Lopez     | aiden.lopez@example.com        |  3.6 |   8 | Chemistry
+ 21 | Liam       | Rodriguez | liam.rodriguez@example.com     |    6 |   5 | Chemistry
+ 22 | Noah       | Martinez  | noah.martinez@example.com      |    6 |   6 | Chemistry
+ 23 | Elijah     | Hernandez | elijah.hernandez@example.com   |    6 |   7 | Chemistry
+ 25 | Lucas      | Gonzalez  | lucas.gonzalez@example.com     |    6 |   7 | Chemistry
+ 32 | Levi       | Martin    | levi.martin@example.com        |    6 |   5 | Nursing
+ 35 | Samuel     | White     | samuel.white@example.com       |  3.6 |   8 | Nursing
+ 45 | Camila     | Scott     | camila.scott@example.com       |  3.4 |   8 | Electronics
+ 33 | Daniel     | Lee       | daniel.lee@example.com         |    6 |   6 | Nursing
+ 34 | Owen       | Perez     | owen.perez@example.com         |    6 |   7 | Nursing
+ 41 | Scarlett   | Young     | scarlett.young@example.com     |    6 |   4 | Electronics
+ 42 | Mila       | Allen     | mila.allen@example.com         |    6 |   5 | Electronics
+ 43 | Aria       | King      | aria.king@example.com          |    6 |   6 | Electronics
+ 44 | Sofia      | Wright    | sofia.wright@example.com       |    6 |   7 | Electronics
+ 28 | Sebastian  | Thomas    | sebastian.thomas@example.com   |    6 |   6 | Electrical
+ 29 | Matthew    | Taylor    | matthew.taylor@example.com     |    6 |   7 | Electrical
+ 36 | Mason      | Harris    | mason.harris@example.com       |    6 |   7 | Electrical
+ 37 | Logan      | Clark     | logan.clark@example.com        |    6 |   6 | Electrical
+ 38 | James      | Lewis     | james.lewis@example.com        |    6 |   5 | Electrical
+ 46 | Avery      | Torres    | avery.torres@example.com       |    6 |   7 | Electrical
+ 47 | Ella       | Nguyen    | ella.nguyen@example.com        |    6 |   6 | Electrical
+ 30 | Henry      | Moore     | henry.moore@example.com        |  3.6 |   8 | Electrical
+ 50 | Grace      | Adams     | grace.adams@example.com        |    6 |   3 | Electrical
+(50 rows)
+
+
+
+Sure, here are the questions numbered for easy reference:
+
+1. Retrieve all students whose first name starts with 'M'.
+2. Find the details of students whose last name ends with 'son'.
+3. List all students whose email contains 'example'.
+4. Retrieve the first and last names of students whose first name has 'a' as the second letter.
+5. Find the students whose last name contains 'a' anywhere in the name.
+6. List all students whose degree program starts with 'E'.
+7. Retrieve the details of students whose first name ends with 'a'.
+8. Find students whose email address ends with '.com'.
+9. List the first and last names of students whose first name has 'e' as the third letter.
+10. Retrieve all students whose last name starts with 'J'.
+11. Find the students whose first name contains exactly five letters.
+12. List all students whose first name contains 'ar'.
+13. Retrieve the first and last names of students whose email address starts with 'a'.
+14. Find students whose last name has 'i' as the second letter.
+15. List all students whose first name ends with 'n'.
+16. Retrieve the details of students whose last name ends with 'z'.
+17. Find students whose email address contains 'n' as the third letter.
+18. List the first and last names of students whose first name has 'e' as the second letter.
+19. Retrieve all students whose last name contains 'o' anywhere in the name.
+20. Find the students whose first name starts with 'A' and ends with 'a'.
+21. Retrieve the first name, last name, and CGPA of students who are either in semester 3 or have a CGPA greater than 3.5.
+22. List all students who have the same first and last name.
+23. Find the students who are in the 'Electrical' degree program and have a CGPA of 6, sorted by their last name.
+24. Retrieve the details of students whose first name contains 'am'.
+25. List all students who are in semesters 4, 5, and 6, but not in the 'Electrical' degree program.
+26. Find the number of distinct degree programs.
+27. Retrieve the details of the student with the highest CGPA in each degree program.
+28. List the first and last names of students whose first names end with 'a'.
+29. Find students who have the same last name but are in different degree programs.
+30. Retrieve the details of students who have a CGPA of 6 and are not in semester 5.
+31. Retrieve all students with a CGPA of 6.
+32. Find the email of the student with the first name 'Mia'.
+33. List all students who are in the 'Electrical' degree program.
+34. Count the number of students in the 'Pharmaceutical Science' degree program.
+35. Retrieve the student(s) with the highest CGPA.
+36. List all students in semester 8.
+37. Retrieve all students whose last name is 'Jackson'.
+38. Find the average CGPA of students in the 'Nursing' degree program.
+39. List all students with a CGPA less than 4.
+40. Retrieve the first name, last name, and degree of students in semester 5.
+41. Find the number of students with the last name 'Lopez'.
+42. List all students whose first name starts with 'A'.
+43. Retrieve the email addresses of all students in the 'Economics' degree program.
+44. Find all students who have 'garcia' in their email address.
+45. List all students in semester 6 and the 'Electrical' degree program.
+46. Find the student(s) with the lowest CGPA.
+47. Retrieve all students whose first name is 'James'.
+48. Count the number of students in each degree program.
+49. List all students in the 'Chemistry' degree program with a CGPA of 6.
+50. Find the email of the student with the ID 20.
+51. Retrieve the first name, last name, and CGPA of students in semester 4.
+52. List all students with the last name 'Martinez'.
+53. Find the number of students in each semester.
+54. List all students in semester 7.
+55. Retrieve the first name, last name, and email of students in the 'Electronics' degree program.
+56. Count the number of students with a CGPA of 6 in each degree program.
+57. List all students in semester 3.
+58. Find the number of students with the first name 'Olivia'.
+59. Retrieve the first name, last name, and CGPA of students in the 'Economics' degree program.
+60. List all students whose email address ends with 'example.com'.
+
+You can now copy and paste this list as needed.
