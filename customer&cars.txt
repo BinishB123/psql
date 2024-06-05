@@ -1,0 +1,166 @@
+test=# select * from customer ;
+ id | first_name | last_name  |             email             | gender | date_of_birth | car_id
+----+------------+------------+-------------------------------+--------+---------------+--------
+  1 | John       | Doe        | johndoe@example.com           | Male   | 1990-01-01    |      1
+  7 | Eve        | Davis      | eve.davis@example.com         | Female | 1993-07-07    |      1
+ 13 | Kevin      | Bacon      | kevin.bacon@example.com       | Male   | 1967-07-08    |      1
+ 19 | Quincy     | Jones      | quincy.jones@example.com      | Male   | 1933-03-14    |      1
+ 25 | Walter     | White      | walter.white@example.com      | Male   | 1956-09-07    |      1
+  2 | Jane       | Doe        | janedoe@example.com           | Female | 1992-02-02    |      2
+  8 | Frank      | Miller     | frank.miller@example.com      | Male   | 1978-08-08    |      2
+ 14 | Laura      | Palmer     | laura.palmer@example.com      | Female | 1985-05-23    |      2
+ 20 | Rachel     | Green      | rachel.green@example.com      | Female | 1970-05-05    |      2
+ 26 | Xander     | Cage       | xander.cage@example.com       | Male   | 1977-06-20    |      2
+  3 | Alice      | Smith      | alice.smith@example.com       | Female | 1985-03-03    |      3
+  9 | Grace      | Wilson     | grace.wilson@example.com      | Female | 1982-09-09    |      3
+ 15 | Michael    | Jordan     | michael.jordan@example.com    | Male   | 1963-02-17    |      3
+ 21 | Samuel     | Jackson    | samuel.jackson@example.com    | Male   | 1948-12-21    |      3
+ 27 | Yvonne     | Strahovski | yvonne.strahovski@example.com | Female | 1982-07-30    |      3
+  4 | Bob        | Johnson    | bob.johnson@example.com       | Male   | 1988-04-04    |      4
+ 10 | Hank       | Moore      | hank.moore@example.com        | Male   | 1991-10-10    |      4
+ 16 | Natalie    | Portman    | natalie.portman@example.com   | Female | 1981-06-09    |      4
+ 22 | Tina       | Turner     | tina.turner@example.com       | Female | 1939-11-26    |      4
+ 28 | Zachary    | Levi       | zachary.levi@example.com      | Male   | 1980-09-29    |      4
+  5 | Charlie    | Brown      | charlie.brown@example.com     | Male   | 1995-05-05    |      5
+ 11 | Isaac      | Newton     | isaac.newton@example.com      | Male   | 1994-12-25    |      5
+ 17 | Oliver     | Twist      | oliver.twist@example.com      | Male   | 1995-03-12    |      5
+ 23 | Uma        | Thurman    | uma.thurman@example.com       | Female | 1970-04-29    |      5
+ 29 | Ashley     | Williams   | ashley.williams@example.com   | Female | 1986-03-14    |      5
+  6 | Dana       | White      | dana.white@example.com        | Female | 1980-06-06    |      6
+ 12 | Julia      | Roberts    | julia.roberts@example.com     | Female | 1990-10-28    |      6
+ 18 | Penelope   | Cruz       | penelope.cruz@example.com     | Female | 1974-04-28    |      6
+ 24 | Vincent    | Vega       | vincent.vega@example.com      | Male   | 1965-05-16    |      6
+ 30 | Bryan      | Cranston   | bryan.cranston@example.com    | Male   | 1956-03-07    |      6
+ 31 | Emma       | Watson     | emma.watson@example.com       | Female | 1990-04-15    |
+ 32 | Leonardo   | DiCaprio   | leonardo.dicaprio@example.com | Male   | 1974-11-11    |
+ 33 | Jennifer   | Lawrence   | jennifer.lawrence@example.com | Female | 1990-08-15    |
+ 34 | Brad       | Pitt       | brad.pitt@example.com         | Male   | 1963-12-18    |
+ 35 | Angelina   | Jolie      | angelina.jolie@example.com    | Female | 1975-06-04    |
+ 36 | Tom        | Cruise     | tom.cruise@example.com        | Male   | 1962-07-03    |
+ 37 | Meryl      | Streep     | meryl.streep@example.com      | Female | 1949-06-22    |
+ 38 | Johnny     | Depp       | johnny.depp@example.com       | Male   | 1963-06-09    |
+ 39 | Jennifer   | Aniston    | jennifer.aniston@example.com  | Female | 1969-02-11    |
+ 40 | Will       | Smith      | will.smith@example.com        | Male   | 1968-09-25    |
+(40 rows)
+
+
+test=#
+test=# select * from cars;
+ id |     make      |     model      | price
+----+---------------+----------------+-------
+  1 | Chevrolet     | G-Series G30   |   122
+  2 | Lincoln       | Town Car       |   603
+  3 | Cadillac      | Escalade ESV   |   674
+  4 | Pontiac       | Grand Prix     |   632
+  6 | Jeep          | Grand Cherokee |   792
+  5 | suzuki        | wagnor         |  5000
+  7 | Ford          | Fiesta         | 15000
+  8 | Toyota        | Camry          | 25000
+  9 | Honda         | Civic          | 22000
+ 10 | BMW           | 3 Series       | 35000
+ 11 | Audi          | A4             | 37000
+ 12 | Mercedes-Benz | C-Class        | 40000
+ 13 | Hyundai       | Elantra        | 18000
+ 14 | Kia           | Optima         | 20000
+ 15 | Mazda         | Mazda3         | 21000
+ 16 | Nissan        | Altima         | 23000
+(16 rows)
+
+
+
+Sure, here are 60 questions covering various aspects of SQL, including aggregations, joins, and more:
+
+1. Retrieve the total number of records in the `customer` table.
+2. Calculate the average price of cars in the `cars` table.
+3. Count the number of male customers in the `customer` table.
+4. Find the maximum price among all cars in the `cars` table.
+5. Determine the minimum date of birth among all customers in the `customer` table.
+6. Calculate the sum of prices for all cars in the `cars` table.
+7. Find the number of unique car makes in the `cars` table.
+8. Retrieve the total number of records in the `customer` table where the car_id is not null.
+9. Calculate the average price of cars for each car make in the `cars` table.
+10. Count the number of customers born in each year in the `customer` table.
+11. Find the maximum price among cars made by Chevrolet.
+12. Determine the minimum date of birth among female customers in the `customer` table.
+13. Calculate the sum of prices for cars made by Toyota.
+14. Find the number of unique car models in the `cars` table.
+15. Retrieve the total number of records in the `customer` table where the car_id is null.
+16. Calculate the average price of cars for each car model in the `cars` table.
+17. Count the number of customers born in each month in the `customer` table.
+18. Find the maximum price among cars made by Ford.
+19. Determine the minimum date of birth among male customers in the `customer` table.
+20. Calculate the sum of prices for cars made by Honda.
+21. Find the number of unique car models for cars priced above $30,000.
+22. Retrieve the total number of male customers in the `customer` table where the car_id is not null.
+23. Calculate the average price of cars for each car make where the price is less than $20,000.
+24. Count the number of customers born in each decade in the `customer` table.
+25. Find the maximum price among cars made by Mercedes-Benz.
+26. Determine the minimum date of birth among female customers where the car_id is not null.
+27. Calculate the sum of prices for cars made by Nissan.
+28. Find the number of unique car models for cars priced below $10,000.
+29. Retrieve the total number of female customers in the `customer` table where the car_id is null.
+30. Calculate the average price of cars for each year of birth in the `customer` table.
+31. Count the number of customers born in each quarter of the year in the `customer` table.
+32. Find the maximum price among cars made by Audi.
+33. Determine the minimum date of birth among male customers where the car_id is not null.
+34. Calculate the sum of prices for cars made by BMW.
+35. Find the number of unique car makes for cars priced above $40,000.
+36. Retrieve the total number of male customers in the `customer` table where the car_id is null.
+37. Calculate the average price of cars for each month of birth in the `customer` table.
+38. Count the number of customers born in each half-decade in the `customer` table.
+39. Find the maximum price among cars made by Pontiac.
+40. Determine the minimum date of birth among customers where the car_id is null.
+41. Calculate the sum of prices for cars made by Hyundai.
+42. Find the number of unique car makes for cars priced below $5,000.
+43. Retrieve the total number of female customers in the `customer` table born after 1995.
+44. Calculate the average price of cars for each gender in the `customer` table.
+45. Count the number of customers born in each decade and each gender in the `customer` table.
+46. Find the maximum price among cars made by Lincoln.
+47. Determine the minimum date of birth among male customers born after 2000.
+48. Calculate the sum of prices for cars made by Jeep.
+49. Find the number of unique car models for cars priced between $15,000 and $25,000.
+50. Retrieve the total number of male customers in the `customer` table born in January.
+51. Calculate the average price of cars for each day of birth in the `customer` table.
+52. Count the number of customers born in each season of the year in the `customer` table.
+53. Find the maximum price among cars made by Suzuki.
+54. Determine the minimum date of birth among female customers born before 1980.
+55. Calculate the sum of prices for cars made by Chevrolet.
+56. Find the number of unique car makes for cars priced between $10,000 and $20,000.
+57. Retrieve the total number of male customers in the `customer` table born in the 1990s.
+58. Calculate the average price of cars for each month and gender in the
+
+
+
+
+Certainly! Here are 30 questions focusing on different types of SQL joins:
+
+1. What is a LEFT JOIN, and how does it differ from an INNER JOIN?
+2. Explain the syntax for performing a LEFT JOIN in SQL.
+3. Provide an example of using a LEFT JOIN to retrieve data from two tables.
+4. When would you use a LEFT JOIN instead of an INNER JOIN?
+5. What is a RIGHT JOIN, and how is it different from a LEFT JOIN?
+6. Explain the syntax for performing a RIGHT JOIN in SQL.
+7. Provide an example of using a RIGHT JOIN to retrieve data from two tables.
+8. When would you use a RIGHT JOIN instead of an INNER JOIN or a LEFT JOIN?
+9. What is a FULL OUTER JOIN, and how does it combine data from two tables?
+10. Explain the syntax for performing a FULL OUTER JOIN in SQL.
+11. Provide an example of using a FULL OUTER JOIN to retrieve data from two tables.
+12. When would you use a FULL OUTER JOIN instead of other types of joins?
+13. What is a CROSS JOIN, and what does it do?
+14. Explain the syntax for performing a CROSS JOIN in SQL.
+15. Provide an example of using a CROSS JOIN to combine data from two tables.
+16. When would you use a CROSS JOIN?
+17. What is a self-join, and how does it work?
+18. Provide an example of using a self-join in SQL.
+19. When would you use a self-join?
+20. What is a natural join, and how does it differ from other types of joins?
+21. Explain the syntax for performing a natural join in SQL.
+22. Provide an example of using a natural join to retrieve data from two tables.
+23. When would you use a natural join?
+24. What is an equi-join, and how is it different from other types of joins?
+25. Explain the concept of an equi-join with an example.
+26. When would you use an equi-join?
+27. What is a non-equijoin, and how does it work?
+28. Provide an example of using a non-equijoin in SQL.
+29. When would you use a non-equijoin?
+30. Compare and contrast the different types of joins available in SQL, discussing their use cases and limitations.
